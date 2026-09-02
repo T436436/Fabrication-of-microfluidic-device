@@ -19,21 +19,10 @@ The completed device provides a platform for future experimental validation of t
 
 ## Methodology
 
-```mermaid
-flowchart TD
-    A["Inverse mold design in CAD"] --> B["STL export and CHITUBOX slicing"]
-    B --> C["MSLA resin printing"]
-    C --> D["IPA cleaning and DI-water rinse"]
-    D --> E["Compressed-air drying and UV curing"]
-    E --> F["Thermal treatment at 65 °C"]
-    F --> G["PDMS preparation at 10:1 ratio"]
-    G --> H["Vacuum degassing and mold casting"]
-    H --> I["PDMS curing and device release"]
-    I --> J["Port punching and surface cleaning"]
-    J --> K["Plasma bonding to glass"]
-    K --> L["Bond strengthening at 100 °C"]
-    L --> M["Completed microfluidic device"]
-```
+<p align="center">
+<img src="fabrication_flowchart.png" align="center" width="75%"/>
+</p>
+
 
 ## Mold Design
 
