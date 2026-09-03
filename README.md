@@ -1,12 +1,10 @@
 # Fabrication of a Staggered-Herringbone PDMS Microfluidic Device
 
-Fabrication of resin-printed molds and PDMS microfluidic devices for experimentally validating CFD-optimized staggered-herringbone mixing and core-sheath flow designs. The workflow covers CAD preparation, SLA printing, mold post-processing, PDMS casting, plasma bonding, and planned fluorescence-based testing.
+Fabrication of resin-printed molds and PDMS microfluidic devices for experimentally validating CFD-optimized staggered-herringbone mixing. The workflow covers CAD preparation, SLA printing, mold post-processing, PDMS casting, and plasma bonding.
 
 ## Overview
 
-This project presents the manufacturing workflow used to translate CFD-optimized microfluidic geometries into physical polydimethylsiloxane (PDMS) devices. An inverse mold was designed in CAD, manufactured by masked stereolithography (MSLA), post-processed to reduce PDMS curing inhibition, and used for soft-lithographic replication.
-
-The completed device provides a platform for future experimental validation of the staggered-herringbone mixing and core-sheath simulations developed in the preceding stages of the study.
+This project presents the manufacturing workflow used to translate CFD-optimized microfluidic geometries into physical polydimethylsiloxane (PDMS) devices. 
 
 ## Objectives
 
@@ -26,7 +24,7 @@ The completed device provides a platform for future experimental validation of t
 
 ## Mold Design
 
-The microfluidic channel was converted into an inverse mold so that the raised printed features would form recessed channels in the cured PDMS. The mold was exported as an STL file and prepared for printing in CHITUBOX.
+The microfluidic channel was converted into an inverse mold so that the raised printed features would form recessed channels in the cured PDMS. The mold was exported as an STL file and prepared for printing in CHITUBOX software.
 
 | Mold parameter | Value |
 |---|---:|
