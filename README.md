@@ -67,7 +67,7 @@ Freshly printed resin can inhibit PDMS curing if residual resin or reactive surf
 5. Bake the mold at 65 °C for 24–36 hours before PDMS casting.
 
 <p align="center">
-  <img src="images/Figure_19_Printed_Inverted_Herringbone_Mold.png" alt="Printed mold showing inverted herringbone features" width="800">
+  <img src="Figure_19_Printed_Inverted_Herringbone_Mold.png" alt="Printed mold showing inverted herringbone features" width="800">
 </p>
 
 <p align="center"><em>Post-processed resin mold containing the inverse herringbone features.</em></p>
