@@ -18,7 +18,7 @@ This project presents the manufacturing workflow used to translate CFD-optimized
 ## Methodology
 
 <p align="center">
-<img src="fabrication_flowchart.png" align="center" width="75%"/>
+<img src="chapter5_methodology_flowchart.png" align="center" width="75%"/>
 </p>
 
 
