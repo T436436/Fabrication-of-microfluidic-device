@@ -53,7 +53,7 @@ The mold was printed using an EPAX X1 4K MSLA printer and white eResin-PLA Pro. 
 | Bottom-layer exposure | 65 s |
 
 <p align="center">
-  <img src="images/Figure_18_3D_Printing_Setup.png" alt="Resin printing setup for the microfluidic mold" width="800">
+  <img src="Figure_18_3D_Printing_Setup.png" alt="Resin printing setup for the microfluidic mold" width="800">
 </p>
 
 ## Mold Post-Processing
