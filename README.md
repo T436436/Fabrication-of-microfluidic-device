@@ -91,7 +91,7 @@ After curing, the PDMS replica was carefully peeled from the resin mold. Inlet a
 The PDMS surface and glass coverslip were cleaned and plasma-treated for approximately **1 minute**. The activated surfaces were brought into contact to form an irreversible seal. The assembled device was then heated at **100 °C for 10 minutes** to strengthen the bond.
 
 <p align="center">
-  <img src="images/Figure_20_Completed_PDMS_Device.png" alt="Completed PDMS microfluidic device bonded to glass" width="800">
+  <img src="Figure_20_Completed_PDMS_Device.png" alt="Completed PDMS microfluidic device bonded to glass" width="800">
 </p>
 
 <p align="center"><em>Completed PDMS microfluidic device after port formation and glass bonding.</em></p>
