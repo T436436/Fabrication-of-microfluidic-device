@@ -100,11 +100,9 @@ The PDMS surface and glass coverslip were cleaned and plasma-treated for approxi
 
 The fabrication workflow successfully converted the selected simulation geometry into a physical resin mold and a sealed PDMS microfluidic device. The printed mold reproduced the inverted staggered-herringbone features required to form the internal channel, and the cured PDMS layer was released and bonded to glass to produce the final experimental platform.
 
-This chapter demonstrates **manufacturability**, not experimental confirmation of mixing or sheathing performance. Flow experiments are still required to determine how closely the physical device reproduces the CFD predictions.
-
 ## Key Outcome
 
-> The CFD-designed microfluidic geometry was successfully translated into a resin-printed mold and a bonded PDMS device, establishing the physical platform needed for experimental validation.
+The CFD-designed microfluidic geometry was successfully translated into a resin-printed mold and a bonded PDMS device, establishing the physical platform needed for experimental validation.
 
 ## Experimental Validation Plan
 
@@ -126,65 +124,6 @@ Planned work includes:
 - Residual resin chemistry can inhibit PDMS curing if post-processing is insufficient.
 - Port punching, PDMS release, and plasma bonding may introduce device-to-device variation.
 - The numerical models may require refinement if particles adhere to the channel surfaces during experiments.
-
-## Tools and Materials
-
-- **CAD:** SOLIDWORKS
-- **Slicing:** CHITUBOX
-- **3D printing:** EPAX X1 4K MSLA printer
-- **Mold material:** White eResin-PLA Pro
-- **Device material:** Sylgard 184 PDMS
-- **Bonding:** Plasma treatment and thermal strengthening
-- **Planned imaging:** Inverted confocal microscopy
-
-## Repository Structure
-
-```text
-microfluidic-device-fabrication/
-├── README.md
-├── cad/
-│   ├── mold_model.STL
-│   └── mold_dimensions.md
-├── printing/
-│   ├── slicer_settings.md
-│   └── print_files/
-├── protocols/
-│   ├── mold_post_processing.md
-│   ├── pdms_casting.md
-│   └── plasma_bonding.md
-├── images/
-│   ├── Figure_17_PDMS_Mold_Design.png
-│   ├── Figure_18_3D_Printing_Setup.png
-│   ├── Figure_19_Printed_Inverted_Herringbone_Mold.png
-│   └── Figure_20_Completed_PDMS_Device.png
-└── results/
-    └── experimental_validation/
-```
-
-> **Note:** Large CAD, STL, simulation, or microscopy files should be stored with [Git Large File Storage](https://git-lfs.com/) or attached to a GitHub Release if they exceed GitHub's normal file limits.
-
-## Related Simulation Projects
-
-- Staggered-herringbone microfluidic mixing simulation
-- Core-sheath microfluidic flow simulation using the Volume of Fluid method
-
-## Citation
-
-If you use this work, please cite:
-
-```bibtex
-@mastersthesis{islam2025microfluidics,
-  author = {Touhid Islam},
-  title = {Modeling and Manufacturing of Hierarchically Structured Multi-Materials via Microfluidics},
-  school = {Montana State University},
-  year = {2025},
-  month = {August}
-}
-```
-
-## Acknowledgment
-
-This work was supported by the U.S. National Science Foundation under Award No. 2144845.
 
 ## License
 
