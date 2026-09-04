@@ -34,7 +34,7 @@ The microfluidic channel was converted into an inverse mold so that the raised p
 | Feature type | Inverse staggered-herringbone microchannel |
 
 <p align="center">
-  <img src="images/Figure_17_PDMS_Mold_Design.png" alt="CAD design of the inverse PDMS mold" width="800">
+  <img src="Figure_17_PDMS_Mold_Design.png" alt="CAD design of the inverse PDMS mold" width="800">
 </p>
 
 <p align="center"><em>Inverse mold design used to manufacture the PDMS microfluidic channel.</em></p>
