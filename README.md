@@ -2,9 +2,15 @@
 
 Fabrication of resin-printed molds and PDMS microfluidic devices for experimentally validating CFD-optimized staggered-herringbone mixing. The workflow covers CAD preparation, SLA printing, mold post-processing, PDMS casting, and plasma bonding.
 
+<p align="center">
+  <img src="Figure_20_Completed_PDMS_Device.png" alt="Completed PDMS microfluidic device bonded to glass" width="600">
+</p>
+
+**Highlights:** CFD geometry → printed inverse mold → sealed PDMS device · resin MSLA-printed molds with 0.05 mm layers · documented post-processing that prevents resin-inhibited PDMS curing
+
 ## Overview
 
-This project presents the manufacturing workflow used to translate CFD-optimized microfluidic geometries into physical polydimethylsiloxane (PDMS) devices. 
+This project presents the manufacturing workflow used to translate CFD-optimized microfluidic geometries into physical polydimethylsiloxane (PDMS) devices. The channel geometry comes from the [staggered-herringbone mixing simulations](https://github.com/T436436/staggered-herringbone-microfluidic-mixing), and the finished device is the platform for experimentally validating those simulations.
 
 ## Objectives
 
@@ -125,7 +131,26 @@ Planned work includes:
 - Port punching, PDMS release, and plasma bonding may introduce device-to-device variation.
 - The numerical models may require refinement if particles adhere to the channel surfaces during experiments.
 
+## Reference
+
+This repository summarizes the fabrication portion of:
+
+T. Islam, *Modeling and Manufacturing of Hierarchically Structured Multi-Materials via Microfluidics*, M.S. thesis, Montana State University, 2025.
+
+## Acknowledgment
+
+This work was supported by the National Science Foundation under Award No. **2144845**.
+
+## Related Projects
+
+- [Staggered-herringbone mixing simulation](https://github.com/T436436/staggered-herringbone-microfluidic-mixing): the CFD study that produced this geometry
+- [Core–sheath flow simulation (VOF, STAR-CCM+)](https://github.com/T436436/Core-Sheath-Microfluidic-Flow-Simulation-Using-VOF-in-STAR-CCM-): the hydrodynamic-focusing function planned for the integrated device
+
 ## License
 
-Add the license that matches how you want others to reuse the files. For open-source project documentation, the MIT License is a common choice; CAD files and figures may instead require a separate reuse notice.
+Released under the [MIT License](LICENSE).
+
+## Contact
+
+Touhid Islam · tislam@wpi.edu
 
